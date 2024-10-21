@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevSphere</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header">
+      <div class="logo">
+        <h1>DevSphere</h1>
+      </div>
+      <nav>
+        <div class="nav-container">
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="https://anani999.github.io/portfolio/#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+      <a href="#contact" class="cta-btn">Get in Touch</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Elevating Digital Experiences</h2>
+      <p>Backend. Frontend. Mobile. Cloud.</p>
+      <a href="#contact" class="cta-btn">Start Your Project</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p class="services-subtitle">We provide a wide range of tailored development solutions to meet your business needs.</p>
+      <div class="service-cards">
+        <div class="card">
+          <div class="icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/6213/6213731.png" alt="Backend Development Icon">
+          </div>
+          <h3>Backend Development</h3>
+          <p>Scalable, secure, and high-performance server-side solutions that ensure smooth functionality.</p>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="static/icons/backend.png" alt="Frontend Development Icon">
+          </div>
+          <h3>Frontend Development</h3>
+          <p>Visually stunning, responsive, and intuitive interfaces tailored to your business requirements.</p>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="static/icons/android.png" alt="Android Development Icon">
+          </div>
+          <h3>Android App Development</h3>
+          <p>High-performance Android apps that deliver exceptional user experiences on mobile devices.</p>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/182/182151.png" alt="Cloud Deployment Icon">
+          </div>
+          <h3>Cloud Deployment</h3>
+          <p>Optimize and deploy applications in the cloud with ease, ensuring scalability and efficiency.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <form action="https://formspree.io/f/mwpkppzr" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2024 DevSphere. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

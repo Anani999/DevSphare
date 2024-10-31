@@ -1,0 +1,153 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Global Styles */
+body {
+    color: #333;
+    line-height: 1.6;
+}
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #f4f4f9;
+    padding: 80px 20px;
+    color: #333;
+}
+#hero h1 {
+    font-size: 2.5em;
+}
+#hero p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+.cta-btn {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ff7f50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* About Section */
+#about, #benefits, #how-it-works, #plans {
+    padding: 50px 20px;
+    text-align: center;
+}
+.features, .steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.feature-item, .benefit-item, .step, .plan {
+    flex: 1 1 250px;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.feature-item i, .benefit-item i, .step i {
+    font-size: 2em;
+    color: #ff7f50;
+    margin-bottom: 10px;
+}
+
+/* Plans Section */
+.plan {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+.plan h3 {
+    color: #333;
+}
+.plan p {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    color: #ff7f50;
+    text-decoration: none;
+}
+.social-icons {
+    margin-top: 10px;
+}
+.social-icons a {
+    margin: 0 10px;
+    color: #ff7f50;
+    font-size: 1.5em;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    #hero h1 {
+        font-size: 2.2em;
+    }
+    .cta-btn {
+        font-size: 1em;
+    }
+    .features, .steps, #plans {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2em;
+    }
+    #hero p {
+        font-size: 1em;
+    }
+    .features, .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan, .feature-item, .benefit-item, .step {
+        width: 100%;
+        max-width: 90%;
+        margin: 10px 0;
+    }
+    .cta-btn {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #hero h1 {
+        font-size: 1.5em;
+    }
+    #hero p {
+        font-size: 0.9em;
+    }
+    .cta-btn {
+        font-size: 0.9em;
+        padding: 8px 12px;
+    }
+    .feature-item i, .benefit-item i, .step i {
+        font-size: 1.8em;
+    }
+}
